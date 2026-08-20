@@ -27,7 +27,7 @@ export default function Hero() {
         muted
         loop
         playsInline
-        className="absolute inset-0 h-full w-full object-cover"
+        className="absolute inset-0 h-full w-full object-cover scale-[1.08]"
       >
         <source src={heroVideo} type="video/mp4" />
       </video>
