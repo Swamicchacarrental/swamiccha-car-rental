@@ -297,6 +297,7 @@ export default function AdminLogin() {
             </button>
           </form>
 
+          {/* Register link hidden. Uncomment to re-enable registration.
           <p className="mt-6 text-center text-sm text-zinc-400">
             {isRegister ? "Already have an account? " : "Don't have an account? "}
             <button
@@ -307,6 +308,7 @@ export default function AdminLogin() {
               {isRegister ? "Login" : "Register"}
             </button>
           </p>
+          */}
 
           <button
             type="button"
